@@ -301,11 +301,30 @@ vim skills.txt
  12. Сделать коммит в одну строку.
 git add .
 git commit -m "two files"
+
  13. Отправить сразу 2 файла на внешний репозиторий.
 git push
+
  14. На веб интерфейсе создать файл bug_report.txt.
+
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+Имя:Chat - the creator of a group conversation cannot rename it
+Приоритет: Medium
+Серьёзность: Critical
+Шаги:
+1.Open www.test.website.com
+2.Open a chat dialog with users
+3.Click on Setting
+
+Ожидаемый результат: all participants should be able to rename a group conversation
+Фактический результат:the button Rename Conversation is disabled for the creator of the group conversation.
+Приложения:
+      log.txt
+     screenshot.jpg
+  
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
  18. Синхронизировать внешний и локальный репозиторий TXT
 git pull
