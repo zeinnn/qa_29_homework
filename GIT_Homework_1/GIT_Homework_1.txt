@@ -1,0 +1,311 @@
+JSON
+4. Создать внешний репозиторий c названием JSON. 
+
+5. Клонировать репозиторий JSON на локальный компьютер. 
+- git clone git@github.com:zeinnn/JSON.git
+
+6. Внутри локального JSON создать файл “new.json”. 
+- touch new.json
+
+7. Добавить файл под гит. 
+- git add new.json
+
+8. Закоммитить файл. 
+- git commit -m "JSON file commit"
+
+9. Отправить файл на внешний GitHub репозиторий. 
+git -push
+
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. 
+- vim new.json
+{
+"FIO":"Ляличев Константин Алексеевич",
+"age": 27,
+"pet_count": 0,
+"future_salary":"5000 usd"
+}
+:wq
+
+11. Отправить изменения на внешний репозиторий. 
+- git add new.json; git commit -m "changed json"; git push
+
+12. Создать файл preferences.json 
+- touch preferences.json
+
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json
+{
+"favorite_film":"Blade Runner",
+"favorite_tv_show": "Breaking Bad",
+"favorite_food": "steak",
+"favorite_season":"summer",
+"country_to_visit": "USA"
+}
+:wq
+
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+- touch skills.json
+vim skills.json
+{
+"first_skill": "Base theory",
+"second_skill": "Client-server architecture",
+"third_skill": "HTTP methods",
+"fourth_skill": "HTTP response codes",
+"fifth_skill": "HTTP request and response structure",
+"sixth_skill": "JSON,XML structure",
+"seventh_skill": "Postman API Testing",
+"eighth_skill": "Logs",
+"ninth_skill": "Charles and Fiddler",
+"tenth_skill": "Dev Tools",
+"eleventh_skill": "VPN",
+"twelfth_skill": "Mobile testing",
+"thirteenth_skill": "IOS and Android guidelines",
+"fourteenth_skill": "Xcode build",
+"fifteenth_skill": "Android studio build",
+"sixteenth_skill": "ADB",
+"seventeenth_skill": "Android and IOS VPN settings",
+"eighteenth_skill": "sniffing traffic Android and IOS",
+"nineteenth_skill": "Linux terminal",
+"twentieth_skill": "Bash scripting",
+"twenty_first_skill": "Server remote access",
+"twenty_second_skill": "SQL",
+"twenty_third_skill": "Postgres",
+"twenty_fourth_skill": "Redis",
+"twenty_fifth_skill": "Jmeter",
+"twenty_sixth_skill": "Scrum",
+"twenty_seventh_skill": "Python"
+}
+:wq
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git commit -m "two files"
+git push
+
+16. На веб интерфейсе создать файл bug_report.json.
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+18.На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+{
+"Name":"Chat - the creator of a group conversation cannot rename it",
+ "Priority": "Medium",
+ "Severity": "Critical",
+ "Steps_to_reproduce":[{"1":"Open www.test.website.com"},{"2":"Open a chat dialog with users"},{"3":"Click on Setting"}],
+ "Actual_result": "the button Rename Conversation is disabled for the creator of the group conversation.",
+ "Expected_result": "all participants should be able to rename a group conversation",
+ "Attachments":["log.txt","screenshot.jpg"]
+}
+19.Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+20.Синхронизировать внешний и локальный репозиторий JSON 
+git pull
+
+------------------------------------------------------
+XML
+ 21. Создать внешний репозиторий c названием XML.
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+git clone git@github.com:zeinnn/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+touch new.xml
+
+ 24. Добавить файл под гит.
+git add new.xml
+
+ 25. Закоммитить файл.
+git commit -m "new xml file"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FIO>Ляличев Константин Алексеевич</FIO>
+<age>27</age>
+<pet_count>0</pet_count>
+<future_salary>5000 usd</future_salary>
+:wq
+
+
+ 28. Отправить изменения на внешний репозиторий.
+git add new.xml
+git commit -m "changed xml"
+git push
+
+ 29. Создать файл preferences.xml
+ touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preferences>
+<country_to_visit>USA</country_to_visit>
+   <favorite_film>Blade Runner</favorite_film>
+   <favorite_food>steak</favorite_food>
+   <favorite_season>summer</favorite_season>
+   <favorite_tv_show>Breaking Bad</favorite_tv_show>
+</preferences>
+:wq
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch skills.xml
+vim skills.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<skills>
+   <eighteenth_skill>sniffing traffic Android and IOS</eighteenth_skill>
+   <eighth_skill>Logs</eighth_skill>
+   <eleventh_skill>VPN</eleventh_skill>
+   <fifteenth_skill>Android studio build</fifteenth_skill>
+   <fifth_skill>HTTP request and response structure</fifth_skill>
+   <first_skill>Base theory</first_skill>
+   <fourteenth_skill>Xcode build</fourteenth_skill>
+   <fourth_skill>HTTP response codes</fourth_skill>
+   <nineteenth_skill>Linux terminal</nineteenth_skill>
+   <ninth_skill>Charles and Fiddler</ninth_skill>
+   <second_skill>Client-server architecture</second_skill>
+   <seventeenth_skill>Android and IOS VPN settings</seventeenth_skill>
+   <seventh_skill>Postman API Testing</seventh_skill>
+   <sixteenth_skill>ADB</sixteenth_skill>
+   <sixth_skill>JSON,XML structure</sixth_skill>
+   <tenth_skill>Dev Tools</tenth_skill>
+   <third_skill>HTTP methods</third_skill>
+   <thirteenth_skill>IOS and Android guidelines</thirteenth_skill>
+   <twelfth_skill>Mobile testing</twelfth_skill>
+   <twentieth_skill>Bash scripting</twentieth_skill>
+   <twenty_fifth_skill>Jmeter</twenty_fifth_skill>
+   <twenty_first_skill>Server remote access</twenty_first_skill>
+   <twenty_fourth_skill>Redis</twenty_fourth_skill>
+   <twenty_second_skill>SQL</twenty_second_skill>
+   <twenty_seventh_skill>Python</twenty_seventh_skill>
+   <twenty_sixth_skill>Scrum</twenty_sixth_skill>
+   <twenty_third_skill>Postgres</twenty_third_skill>
+</skills>
+:wq
+
+
+ 32. Сделать коммит в одну строку.
+git add .
+git commit -m "two xml files"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bugreport>
+<Name>Chat - the creator of a group conversation cannot rename it</Name>
+<Priority>Medium</Priority>
+<Severity>Critical</Severity>
+<steps_to_reproduce>
+	<steps step="1">Open www.test.website.com</steps> 
+	<steps step="2">Open a chat dialog with users</steps> 
+	<steps step="3">Click on Setting</steps> 
+</steps_to_reproduce>
+<Expected_result>all participants should be able to rename a group conversation</Expected_result>
+<Actual_result>the button Rename Conversation is disabled for the creator of the group conversation.</Actual_result>
+<Attachments>
+      <element>log.txt</element>
+      <element>screenshot.jpg</element>
+   </Attachments>
+   </bugreport>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
+
+--------------------------------------------------------------------
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+git clone git@github.com:zeinnn/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+touch new.txt
+
+ 4. Добавить файл под гит.
+git add new.txt
+
+ 5. Закоммитить файл.
+git commit -m "new txt file"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.txt
+ФИО: Ляличев Константин Алексеевич
+Возраст:27
+Количество домашних животных:0
+Будущая желаемая зарплата: 5000 usd
+:wq
+
+
+ 8. Отправить изменения на внешний репозиторий.
+git add new.txt
+git commit -m "changed TXT"
+git push
+
+ 9. Создать файл preferences.txt
+
+touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+vim preferences.txt
+Любимый фильм: Blade Runner
+Любимая еда: стейк
+Любимое время года: лето
+Любимый сериал: Breaking Bad
+:wq
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+touch skills.txt
+vim skills.txt
+1 скилл: sniffing traffic Android and IOS
+2 скилл: Logs
+3 скилл: VPN
+4 скилл:Android studio build
+5 скилл:HTTP request and response structure
+6 скилл:Base theory
+7 скилл:Xcode build
+8 скилл:HTTP response codes
+9 скилл:Linux terminal
+10 скилл:Charles and Fiddler
+11 скилл:Client-server architecture
+12 скилл:Android and IOS VPN settings
+13 скилл:Postman API Testing
+14 скилл:ADB
+15 скилл:JSON,XML structure
+16 скилл:Dev Tools
+17 скилл:HTTP methods
+18 скилл:IOS and Android guidelines
+19 скилл:Mobile testing
+20 скилл:Bash scripting
+21 скилл:Jmeter
+22 скилл:Server remote access
+23 скилл:Redis
+24 скилл:SQL
+25 скилл:Python
+26 скилл:Scrum
+27 скилл:Postgres
+:wq
+
+ 12. Сделать коммит в одну строку.
+git add .
+git commit -m "two files"
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+git push
+ 14. На веб интерфейсе создать файл bug_report.txt.
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git pull
