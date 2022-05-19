@@ -27,7 +27,8 @@ git -push
 :wq
 
 11. Отправить изменения на внешний репозиторий. 
-- git add new.json; git commit -m "changed json"; git push
+git commit -am "changed json"
+git push
 
 12. Создать файл preferences.json 
 - touch preferences.json
@@ -131,8 +132,8 @@ vim new.xml
 
 
  28. Отправить изменения на внешний репозиторий.
-git add new.xml
-git commit -m "changed xml"
+
+git commit -am "changed xml"
 git push
 
  29. Создать файл preferences.xml
@@ -187,8 +188,7 @@ vim skills.xml
 
 
  32. Сделать коммит в одну строку.
-git add .
-git commit -m "two xml files"
+git add . | git commit -m "two xml files"
 
  33. Отправить сразу 2 файла на внешний репозиторий.
 git push
@@ -250,8 +250,7 @@ vim new.txt
 
 
  8. Отправить изменения на внешний репозиторий.
-git add new.txt
-git commit -m "changed TXT"
+git commit -am "changed TXT"
 git push
 
  9. Создать файл preferences.txt
@@ -299,8 +298,7 @@ vim skills.txt
 :wq
 
  12. Сделать коммит в одну строку.
-git add .
-git commit -m "two files"
+git add . | git commit -m "two files"
 
  13. Отправить сразу 2 файла на внешний репозиторий.
 git push
